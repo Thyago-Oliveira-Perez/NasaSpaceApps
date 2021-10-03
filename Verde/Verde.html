@@ -11,6 +11,9 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <title>Verde</title>
+
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
     <style>
@@ -27,7 +30,7 @@
         .img-1{
             max-width: 180px; padding: 0 10px;
         }
-       
+
         @media (max-width:900px) {
             .fot{
                 margin-top: 100%;
@@ -39,12 +42,16 @@
     </style>
     <header class="div-1 d-flex  flex-column justify-content-center flex-wrap" style="height: 260px;  background: linear-gradient(to bottom, #11998E , #38EF7D);">
         <div style="text-align: center; font-size: 20px; color: white; " class="div-1" >
-            <div class="d-flex flex-line justify-content-around align-items-center">
-                <h2 style="text-shadow: 1px 1px 1px black;">
-                    TEMPERATURA : 26ºC<br>Status: Bom
+            <div class="d-flex flex-column justify-content-around align-items-center">
+                <h2 id="temperatura" style="text-shadow: 1px 1px 1px black;">
+                    TEMPERATURA : 26ºC
+                </h2>
+
+                <h2 id="status" style="text-shadow: 1px 1px 1px black;">
+                    Status: Bom
                 </h2>
             </div>
-            
+
         </div>
     </header>
     <section class="" style="background-color: whitesmoke; ">

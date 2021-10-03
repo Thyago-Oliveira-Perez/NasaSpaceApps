@@ -1,0 +1,16 @@
+{
+
+	"name":"Extend Aviso Clima",
+	"version":"1.0",
+	"description":"Mostra uma sintese de infromacoes sobre o clima e risco",
+	"icons": {
+	  "48": "images.png"
+	},
+	"browser_action":{
+		"default_popup":"atalho.html"
+
+	},
+
+	"manifest_version":2
+
+}

@@ -70,24 +70,24 @@ header img {
 }
 
 #btn-ext {
-  background-color: #eab90d;
+  background-color: #39304A;
 }
 #btn-ext:hover {
   font-size: 17px;
-  background-color: #cea40d;
+  background-color: #635088;
   box-shadow: 0 1px 1px white;
   transition: 0.5s;
 }
 
 #btn-whats {
   display: flex;
-  background-color: #00665c;
+  background-color: #104034;
   justify-content: space-evenly;
 }
 
 #btn-whats:hover {
   font-size: 17px;
-  background-color: #034e47;
+  background-color: #28584c;
   box-shadow: 0 1px 1px white;
   transition: 0.5s;
 }
@@ -118,7 +118,7 @@ header img {
 }
 
 .text h1 {
-  color: #00665c;
+  color: #024D45;
 }
 
 .text p {
@@ -144,6 +144,9 @@ header img {
 .temp img {
   max-width: 250px;
   margin-top: 30px;
+}
+footer{
+  width: 100%;
 }
 
 .footer {
@@ -210,7 +213,7 @@ header img {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 1000px;
+    width: 800px;
   }
   .app img {
     max-width: 200px;
