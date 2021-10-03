@@ -5,7 +5,6 @@
 }
 
 a {
-<<<<<<< HEAD
   text-decoration: none;
 }
 
@@ -71,24 +70,24 @@ header img {
 }
 
 #btn-ext {
-  background-color: #eab90d;
+  background-color: #39304A;
 }
 #btn-ext:hover {
   font-size: 17px;
-  background-color: #cea40d;
+  background-color: #635088;
   box-shadow: 0 1px 1px white;
   transition: 0.5s;
 }
 
 #btn-whats {
   display: flex;
-  background-color: #00665c;
+  background-color: #104034;
   justify-content: space-evenly;
 }
 
 #btn-whats:hover {
   font-size: 17px;
-  background-color: #034e47;
+  background-color: #28584c;
   box-shadow: 0 1px 1px white;
   transition: 0.5s;
 }
@@ -119,7 +118,7 @@ header img {
 }
 
 .text h1 {
-  color: #00665c;
+  color: #024D45;
 }
 
 .text p {
@@ -145,6 +144,9 @@ header img {
 .temp img {
   max-width: 250px;
   margin-top: 30px;
+}
+footer{
+  width: 100%;
 }
 
 .footer {
@@ -187,191 +189,6 @@ header img {
 .dados h2 {
   font: normal 8px Poppins;
   color: white;
-=======
-    text-decoration: none;
-}
-
-body {
-    background-image: linear-gradient(#11998E, #38EF7D);
-    font-family: Poppins;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-header img {
-    width: 180px;
-    height: 45px;
-    margin-top: 50px;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 150px;
-}
-
-.text-top {
-    width: 370px;
-    height: 100px;
-    text-align: center;
-    color: #fff;
-}
-
-.btn-utilities {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: space-between;
-    height: 300px;
-    margin-top: 100px;
-}
-
-.btn {
-    width: 300px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn button {
-    width: 300px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    outline: none;
-    border: none;
-    border-radius: 20px;
-    font-size: 16px;
-}
-
-#btn-ext {
-    background-color: #39304A;
-}
-
-#btn-ext:hover {
-    font-size: 17px;
-    background-color: #635088;
-    box-shadow: 0 1px 1px white;
-    transition: 0.5s;
-}
-
-#btn-whats {
-    display: flex;
-    background-color: #104034;
-    justify-content: space-evenly;
-}
-
-#btn-whats:hover {
-    font-size: 17px;
-    background-color: #28584c;
-    box-shadow: 0 1px 1px white;
-    transition: 0.5s;
-}
-
-#btn-whats img {
-    width: 18px;
-    height: 18px;
-    color: white;
-}
-
-.app {
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-    flex-direction: column;
-    width: 300px;
-    height: 500px;
-    margin-top: 80px;
-}
-
-.text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 300px;
-    height: 200px;
-}
-
-.text h1 {
-    color: #024D45;
-}
-
-.text p {
-    margin-top: 20px;
-    text-align: center;
-    color: #fff;
-}
-
-.app img {
-    max-width: 250px;
-    margin-top: 30px;
-}
-
-.temp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column-reverse;
-    width: 300px;
-    height: 500px;
-}
-
-.temp img {
-    max-width: 250px;
-    margin-top: 30px;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    width: 100%;
-    height: 120px;
-    background-color: #000;
-}
-
-.info {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-}
-
-.info h1 {
-    font: normal 10px Poppins;
-    color: #11998E;
-}
-
-.info a {
-    font: normal 8px Poppins;
-    color: #fff;
-}
-
-.links {
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-    margin-top: 5px;
-}
-
-.dados {
-    margin-top: 5px;
-}
-
-.dados h2 {
-    font: normal 8px Poppins;
-    color: white;
->>>>>>> 270269abdc4d25f27dc144a4bc7499328774a1c6
 }
 
 #dif {
@@ -396,7 +213,7 @@ header img {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 1000px;
+    width: 800px;
   }
   .app img {
     max-width: 200px;
