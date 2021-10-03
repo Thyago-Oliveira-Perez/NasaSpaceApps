@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: roboto;
+    background-color: aqua;
+}
+
+.card{
+ 
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: black;
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to bottom,  #FAFF00 , #FFB800);
+
+}
+
+.card h1{
+
+    padding-top: 10px;
+    font-size: 15px;
+
+}
+
+.card h3{
+
+    font-size: 10px;
+
+}
+
+.card a{
+
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.card h1, h3, a{
+
+    filter: drop-shadow(0 2px 3px black);
+
+}
+
+.indicador{
+
+    display: flex;
+
+}
+
+.indicador img{
+
+    height: 20px;
+
+}
+
+.indicador p{
+
+    padding: 5px;
+    font-size: 10px;
+
+}
+
+.card2 {
+
+    margin: auto 10px;
+
+}
+
+.card2 p{
+
+    font-size: 10px;
+
+}
+
+
+
+.cidade{
+
+    width: 100px;
+    height: 30px;
+    font-size: 5px;
+
+}

@@ -8,8 +8,16 @@ function paginaQueVaiAbrir(){
 
 	if(page1 < page3){
 
-		window.open("pageGood.html");
+		window.open("./Verde/Verde.html");
 				
+	}else if(page2 > page1){
+
+		window.open("./Amarelo/Amarelo.html");
+
+	}else{
+
+		window.open("./Amarelo/Amarelo.html");
+
 	}
 
 }
