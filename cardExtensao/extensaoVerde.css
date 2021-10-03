@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 html {
@@ -10,81 +9,70 @@ html {
     background-color: aqua;
 }
 
-.card{
- 
+.card {
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 10px;
-    color: black;
+    color: white;
     width: 200px;
     height: 100px;
-    background: linear-gradient(to bottom,  #FAFF00 , #FFB800);
-
+    background: linear-gradient(to bottom, #405C5A, #38EF7D);
 }
 
-.card h1{
-
+.card h1 {
     padding-top: 10px;
     font-size: 15px;
-
 }
 
-.card h3{
-
+.card h4 {
     font-size: 10px;
-
 }
 
-.card a{
-
-    font-size: 10px;
+.card a {
+    font: bold 10px roboto;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-.card h1, h3, a{
-
+.card h1,
+h4,
+a,
+p {
     filter: drop-shadow(0 2px 3px black);
-
 }
 
-.indicador{
-
+.indicador {
     display: flex;
-
+    align-items: center;
 }
 
-.indicador img{
-
-    height: 20px;
-
+.indicador img {
+    width: 12px;
+    height: 12px;
 }
 
-.indicador p{
-
+.indicador p {
     padding: 5px;
-    font-size: 10px;
-
+    font: bold 26px roboto;
 }
 
 .card2 {
-
     margin: auto 10px;
-
 }
 
-.card2 p{
-
+.card2 p {
     font-size: 10px;
-
 }
 
-
-
-.cidade{
-
-    width: 100px;
+.cidade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
     height: 30px;
-    font-size: 5px;
+}
 
+.cidade svg {
+    max-width: 12px;
+    margin-top: 10px;
 }
