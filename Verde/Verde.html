@@ -11,6 +11,9 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <title>Verde</title>
+
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
     <style>
@@ -27,7 +30,7 @@
         .img-1{
             max-width: 180px; padding: 0 10px;
         }
-       
+
         @media (max-width:900px) {
             .fot{
                 margin-top: 100%;
@@ -39,12 +42,16 @@
     </style>
     <header class="div-1 d-flex  flex-column justify-content-center flex-wrap" style="height: 260px;  background: linear-gradient(to bottom, #11998E , #38EF7D);">
         <div style="text-align: center; font-size: 20px; color: white; " class="div-1" >
-            <div class="d-flex flex-line justify-content-around align-items-center">
-                <h2 style="text-shadow: 1px 1px 1px black;">
-                    TEMPERATURA : 26ºC<br>Status: Bom
+            <div class="d-flex flex-column justify-content-around align-items-center">
+                <h2 id="temperatura" style="text-shadow: 1px 1px 1px black;">
+                    TEMPERATURA : 26ºC
+                </h2>
+
+                <h2 id="status" style="text-shadow: 1px 1px 1px black;">
+                    Status: Bom
                 </h2>
             </div>
-            
+
         </div>
     </header>
     <section class="" style="background-color: whitesmoke; ">
@@ -55,40 +62,40 @@
                     <h5 class="card-title">Foz do Iguaçu 02/10/2021 21h39min</h5>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Temperatura : 26º</li>
-                    <li class="list-group-item">Clima: Ensolarado</li>
-                    <li class="list-group-item">Vento : 25km/h</li>
+                    <li id="extraTemperatura" class="list-group-item">Temperatura : 26º</li>
+                    <li id="clima" class="list-group-item">Clima: Ensolarado</li>
+                    <li id="vento" class="list-group-item">Vento : 25km/h</li>
                 </ul>
             </div>
             <div class="div-2-a">
                 <ul style="margin-top: 15%;">
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="attention.png" class="img-fluid" style="max-width: auto;">
+                            <img src="attention.png" class="img-fluid" style="max-width: auto;" alt="">
                             Baixo Risco a saude;
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="attention.png" class="img-fluid" style="max-width: auto;">
+                            <img src="attention.png" class="img-fluid" style="max-width: auto;" alt="">
                             Baixo Risco de Queimada;
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="attention.png" class="img-fluid" style="max-width: auto;">
+                            <img src="attention.png" class="img-fluid" style="max-width: auto;" alt="">
                             Baixo Risco de doenças relacionadas ao calor;
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="attention.png" class="img-fluid" style="max-width: auto;">
+                            <img src="attention.png" class="img-fluid" style="max-width: auto;" alt="">
                             Chance de Chuva forte;
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="attention.png" class="img-fluid" style="max-width: auto;">
+                            <img src="attention.png" class="img-fluid" style="max-width: auto;" alt="">
                             Poluição do Ar está media.
                         </p>
                     </li>
@@ -98,31 +105,31 @@
                 <ul style="margin-top: 15%;">
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="hint.png" class="img-fluid" style="max-width: auto;">
+                            <img src="hint.png" class="img-fluid" style="max-width: auto;" alt="">
                             Fique Atento com a pele, use protetor solar hoje;
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="hint.png" class="img-fluid" style="max-width: auto;">
+                            <img src="hint.png" class="img-fluid" style="max-width: auto;" alt="">
                             Tome Bastante agua;
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="hint.png" class="img-fluid" style="max-width: auto;">
+                            <img src="hint.png" class="img-fluid" style="max-width: auto;" alt="">
                             Use bone hoje;
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="hint.png" class="img-fluid" style="max-width: auto;">
+                            <img src="hint.png" class="img-fluid" style="max-width: auto;" alt="">
                             Faça exercicios com moderação
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="hint.png" class="img-fluid" style="max-width: auto;">
+                            <img src="hint.png" class="img-fluid" style="max-width: auto;" alt="">
                             Se possivel use guarda sol;
                         </p>
                     </li>
