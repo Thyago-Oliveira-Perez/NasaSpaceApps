@@ -1,7 +1,7 @@
 var chave = config.CHAVE_API;
 
 const getCurrentWeather = async (cityid) => {
-    var request = "https://api.openweathermap.org/data/2.5/weather?id=" + cityid + "&appid=" + config.CHAVE_API + "&units=metric";
+    var request = "https://api.openweathermap.org/data/2.5/weather?id=" + cityid + "&appid=" + config.CHAVE_API + "&units=metric" + "&lang=pt_br";
 
     return await fetch(request);
 }
@@ -11,7 +11,7 @@ const updateInfo = async (cityid) => {
     const myJson = await response.json();
 
     var temperatura = parseInt(myJson["main"]["temp"]);
-    var clima = myJson["weather"][0]["main"];
+    var clima = myJson["weather"][0]["description"];
     var vento = myJson["wind"]["speed"];
 
     document.getElementById("temperatura").innerHTML = "TEMPERATURA : " + temperatura + "ºC";
