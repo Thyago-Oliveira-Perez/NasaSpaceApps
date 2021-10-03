@@ -11,6 +11,8 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <title>Vermelho</title>
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
     <style>
@@ -37,16 +39,22 @@
             }
         }
     </style>
-    <header class="div-1 d-flex  flex-column justify-content-center flex-wrap" style="height: 360px;  background: linear-gradient(to bottom, #AD0808 , #D34214);">
-        <div style="text-align: center; font-size: 20px; color: white; " class="div-1" >
-            <div class="d-flex flex-line justify-content-around align-items-center">
+    <header class="div-1 d-flex  flex-column justify-content-center flex-wrap"
+        style="height: 260px;  background: linear-gradient(to bottom,  #AD0808 , #D34214);">
+        <div style="text-align: center; font-size: 20px; color: white; " class="div-1">
+            <div class="d-flex flex-row justify-content-around align-items-center">
                 <img src="warning.png" class="img-1 img-fluid">
-                <h2 style="text-shadow: 1px 1px 1px black;">
-                    TEMP: 40ºC<br>Status: Risco Elevado
-                </h2>
+                <div>
+                    <h2 id="temperatura" style="text-shadow: 1px 1px 1px black;">
+                        TEMPERATURA : 36ºC
+                    </h2>
+                    <h2 id="status" style="text-shadow: 1px 1px 1px black;">
+                        Status: Risco Elevado !
+                    </h2>
+                </div>
+               
                 <img src="warning.png" class="img-1 img-fluid">
             </div>
-            
         </div>
     </header>
     <section class="" style="background-color: whitesmoke; ">
@@ -54,12 +62,12 @@
             <div class="card " style="width: 16rem;">
                 <img src="sun_icon.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Foz do Iguaçu 02/10/2021 13h39min</h5>
+                    <h5 class="card-title" id="titulo" >Foz do Iguaçu 02/10/2021 13h39min</h5>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Temperatura : 40º</li>
-                    <li class="list-group-item">Clima: Ensolarado</li>
-                    <li class="list-group-item">Vento : 25km/h</li>
+                    <li id="extraTemperatura" class="list-group-item">Temperatura : 40º</li>
+                    <li id="clima" class="list-group-item">Clima: Ensolarado</li>
+                    <li id="vento" class="list-group-item">Vento : 25km/h</li>
                 </ul>
             </div>
             <div class="div-2-a">
@@ -100,32 +108,32 @@
                 <ul style="margin-top: 15%;">
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="hint.png" class="img-fluid" style="max-width: auto;">
-                            Fique Atento com a pele, use protetor solar hoje;
+                            <img src="hint.png" class="img-fluid" style="max-width: 46px;">
+                            Não economize no protetor solar
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="hint.png" class="img-fluid" style="max-width: auto;">
-                            Tome Bastante agua;
+                            <img src="hint.png" class="img-fluid" style="max-width: 46px;">
+                            Mantenha sempre uma garrafa de água por perto.
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="hint.png" class="img-fluid" style="max-width: auto;">
+                            <img src="hint.png" class="img-fluid" style="max-width: 46px;">
                             Use bone hoje;
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="hint.png" class="img-fluid" style="max-width: auto;">
-                            Faça exercicios com moderação
+                            <img src="hint.png" class="img-fluid" style="max-width: 46px;">
+                            Nao fique em lugares abafados.
                         </p>
                     </li>
                     <li class="d-flex flex-row flex-wrap">
                         <p>
-                            <img src="hint.png" class="img-fluid" style="max-width: auto;">
-                            Se possivel use guarda sol;
+                            <img src="hint.png" class="img-fluid" style="max-width: 46px;">
+                            Evite exercicios físicos hoje.
                         </p>
                     </li>
                 </ul>
